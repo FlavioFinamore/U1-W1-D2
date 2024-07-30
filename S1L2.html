@@ -5,7 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="primi passi operativi" />
     <title>Sviluppo di una pagina web - Epicode</title>
+    <style>
+      table {
+        width: 30%;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      .correlati p {
+        margin: 1;
+      }
+    </style>
   </head>
+
   <body>
     <header>
       <div>
@@ -53,10 +69,94 @@
           <li>Applicare gli stili CSS</li>
         </ol>
         <p>
-          L'applicazione di stili CSS è cresciyta negli anni fino a raggiungere
+          L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere
           la diffuzione pressoché totale.
         </p>
       </article>
+      <div>
+        <table>
+          <caption>
+            <b>Diffusione dei CSS</b>
+          </caption>
+          <tbody>
+            <tr>
+              <th>Anno</th>
+              <th>% di utilizzo</th>
+              <th>Supporto browser</th>
+            </tr>
+            <tr>
+              <th>2000</th>
+              <th>20%</th>
+              <th>17%</th>
+            </tr>
+            <tr>
+              <th>2002</th>
+              <th>35%</th>
+              <th>22%</th>
+            </tr>
+            <tr>
+              <th>2004</th>
+              <th>45%</th>
+              <th>42%</th>
+            </tr>
+            <tr>
+              <th>2008</th>
+              <th>80%</th>
+              <th>51%</th>
+            </tr>
+            <tr>
+              <th>2012</th>
+              <th>100%</th>
+              <th>76%</th>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          Un test di validazione potrà essere fatto tramite il tool online
+          <a href="#">-LINK ESTERNO-</a> dedicato allo scopo. Una volta
+          ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere
+          stati dei veri developers come loro:
+        </p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/m4WSQHmTyUI?si=KCGAzHozYB0m6c32"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
     </main>
+    <aside>
+      <div>
+        <h4>
+          Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
+          nostra newsletter:
+        </h4>
+        <p>
+          <label for="email">Inserisci l'email:</label>
+          <input type="email" id="email" placeholder="campo email" />
+        </p>
+        <p><label for="">Iscriviti!</label> <button>Pulsante Invio</button></p>
+      </div>
+      <div class="correlati">
+        <h3>Articoli correlati</h3>
+        <p>Validare il codice HTML</p>
+        <p>Categoria: develop</p>
+        <p>Data: 18-9-2020</p>
+      </div>
+      <div class="correlati">
+        <p>Correggere la sintassi</p>
+        <p>Categoria: develop</p>
+        <p>Data: 16-9-2020</p>
+      </div>
+      <div class="correlati">
+        <p>Meno Kb nella pagina</p>
+        <p>Categoria: ottimizzazione</p>
+        <p>Data: 30-9-2020</p>
+      </div>
+    </aside>
   </body>
 </html>
